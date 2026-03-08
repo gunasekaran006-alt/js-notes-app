@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="js-notes-app">
+    <title>JavaScript Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+     <div class="container">
+        <header>
+            <h1>TODO</h1>
+            <button id="theme-icon">&#127769;</button>
+        </header>
+
+        <div class="input-container">
+            <input type="text" id="noteInput" placeholder="Create a new todo...">
+        </div>
+
+        <div class="notes-wrapper">
+            <ul id="notesList"></ul>
+            <div class="footer">
+                <span id="itemsLeft">0 items left</span>
+                <div class="filters">
+                    <button class="active">All</button>
+                    <button>Active</button>
+                    <button>Completed</button>
+                </div>
+                <button onclick="clearCompleted()">Clear Completed</button>
+            </div>
+        </div>
+        <p class="instruction">Drag and drop to reorder list</p>
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
