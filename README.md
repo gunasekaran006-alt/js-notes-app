@@ -1,23 +1,27 @@
-# Simple JS Notes App 🚀
+# 📝 JavaScript Todo App
 
-A sleek, responsive, and elegant **Notes Application** built using Vanilla JavaScript. This project implements core CRUD operations with a focus on clean code and user experience.
+A beautiful, responsive, and fully functional Todo application built using vanilla web technologies. This app helps you keep track of your daily tasks with a clean user interface and a built-in dark mode.
 
 ## ✨ Features
-- **Create**: Quickly add new tasks or notes.
-- **Read**: View your list of notes in a clean interface.
-- **Update**: Mark tasks as completed or toggle their status.
-- **Delete**: Remove specific tasks or clear all completed tasks at once.
-- **Responsive Design**: Works perfectly on both desktop and mobile screens.
 
-## 🛠️ Tech Stack
-- **HTML5**: For the application structure.
-- **CSS3**: For styling and layout (including gradients and transitions).
-- **JavaScript (ES6)**: For DOM manipulation and CRUD logic.
+- **Add & Delete Tasks:** Easily add new todos and remove them when no longer needed.
+- **Mark as Completed:** Strike through completed tasks with a single click.
+- **Dark/Light Mode:** Toggle between beautiful dark and light themes.
+- **Task Filtering:** View 'All', 'Active', or 'Completed' tasks.
+- **Clear Completed:** One-click button to remove all finished tasks.
+- **Data Persistence:** Uses browser `LocalStorage` so you never lose your tasks even after refreshing the page.
+- **Dynamic Counter:** Keeps track of how many active tasks are left.
 
-## 📸 Preview
-The design features a modern UI with a clean list view, inspired by contemporary todo app layouts.
+## 🛠️ Technologies Used
 
-## 🚀 How to Run
-1. Clone the repository:
+- **HTML5:** For semantic structure.
+- **CSS3:** For styling, custom variables, and responsive layout.
+- **Vanilla JavaScript (ES6+):** For DOM manipulation and logic (No external libraries/frameworks).
+
+## 🚀 How to Run Locally
+
+It's extremely simple to run this project on your local machine:
+
+1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
